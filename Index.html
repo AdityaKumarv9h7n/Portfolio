@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnail Designer - Aditya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Previous Works</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="fade-in">
+        <h1>Hi, I’m Aditya</h1>
+        <img id="profile-swap" src="images/profile.png" alt="Aditya - Thumbnail Designer" class="profile-img">
+        <p class="tagline">I’m a Thumbnail Designer crafting eye-catching visuals that grab attention.</p>
+        <button class="cta-button">Explore My Work</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>I specialize in creating thumbnails that boost click-through rates. With a keen eye for design and a passion for storytelling.</p>
+    </section>
+
+    <!-- Previous Works Section -->
+    <section id="works" class="fade-in">
+        <h2>Previous Works</h2>
+        <div class="gallery">
+            <img data-src="images/Lex fridman.png" alt="Thumbnail 1" class="lazy">
+            <img data-src="images/Don't waste your money 1.png" alt="Thumbnail 2" class="lazy">
+            <img data-src="images/Thumbnail 3.jpg" alt="Thumbnail 3" class="lazy">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <p>Need a thumbnail? Reach out!</p>
+        
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="c35bdab5-3603-44e8-8e43-dc3b8272593b">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <input type="hidden" name="redirect" value="https://yourwebsite.com/success.html">
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+
+
+        <!-- <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form> -->
+    </section>
+
+    <!-- Footer with Social Links -->
+    <footer>
+        <p>© 2025 Aditya Kumar. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://x.com/AdityaKumarv9h7" target="_blank"><img src="images/xlogo.png" alt="X profile" width="30px" style="background-color: #ffffff; border-radius: 5px;"></a>
+            <a href="https://instagram.com/adityakumarv9h7n" target="_blank"><img src="images/instagramlogo.png" alt=" Instagram profile" width="30px" style="background-color: #ffffff; border-radius: 5px;"></a>
+            <a href="https://youtube.com/@AdityaKumar-v9h7n" target="_blank"><img src="images/youtubelogo.png" alt=" YouTube profile" width="30px" style="background-color: #ffffff; border-radius: 10px;"> </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
