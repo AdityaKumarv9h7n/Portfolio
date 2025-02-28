@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Profile Image Swap after 10 seconds
     const profileImg = document.getElementById("profile-swap");
     setTimeout(() => {
-        profileImg.src = "images/profile2.png"; // Swap to second image
+        profileImg.src = "profile2.png"; // Swap to second image
         profileImg.alt = "Aditya - Thumbnail Designer (Alternate)"; // Update alt text
     }, 10000); // 10 seconds = 10,000 milliseconds
 });
